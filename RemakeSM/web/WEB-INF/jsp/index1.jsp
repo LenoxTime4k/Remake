@@ -1,0 +1,109 @@
+<%-- 
+    Document   : index1
+    Created on : 21-11-2018, 14:49:16
+    Author     : Kevin_PC
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Santo Mercado</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="login.htm">Santo Mercado</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                            <li><a href="index1.htm">hola</a></li>
+                            <li class="Link">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Buscar">
+                            </div>
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Salir</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuario <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        
+            <div class="col-md-4 col-md-offset-3">
+                <h2>Registrar usuario</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre Usuario</label>
+                        <input class="form-control" name="nombre" id="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input class="form-control" name="password" id="password" type="password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="nombre_completo">Nombre completo</label>
+                        <input class="form-control" name="nombre_completo" id="nombre_completo" type="nombre_completo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="rut">Rut</label>
+                        <input class="form-control" name="rut" id="rut" type="rut" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comuna">Comuna Residencia</label>
+                        <input class="form-control" name="comuna" id="comuna" type="comuna" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="sede">Sede Institucion</label>
+                        <input class="form-control" name="sede" id="sede" type="sede" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+            </div>
+        
+    </body>
+</html>
