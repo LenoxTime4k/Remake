@@ -65,17 +65,17 @@
                     <form>
                         <div class="form-group">
                             <label for="nombre">Nombre Producto</label>
-                            <input class="form-control" name="nombre" id="nombre" required>
+                            <input class="form-control" name="nombre" id="nombre" type="text" required>
                         </div>
 
                         <div class="form-group">
                             <label for="precio">Precio</label>
-                            <input class="form-control" name="password" id="password" type="password" required>
+                            <input class="form-control" name="precio" type="text" required>
                         </div>
 
                         <div class="form-group">
                             <label for="descripcion">Descripcion</label>
-                            <input class="form-control" name="nombre_completo" id="nombre_completo" type="nombre_completo" required>
+                            <input class="form-control" name="descripcion" id="descripcion" type="text" required>
                         </div>
                         
                         <div >
