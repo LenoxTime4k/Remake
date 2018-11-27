@@ -58,7 +58,7 @@ http://www.templatemo.com/tm-509-hydro
                          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in / Join</a></li>
+                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Ingresar</a></li>
                     </ul>
                </div>
 
@@ -74,11 +74,11 @@ http://www.templatemo.com/tm-509-hydro
 
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
-                              <h1>We make beautiful websites for all people.</h1>
-                              <a href="#about" class="btn section-btn smoothScroll">Start a project</a>
+                              <h1>Tu unico impedimento hasta ahora para vender o cambiar tus productos era no conocernos.</h1>
+                              <a href="#about" class="btn section-btn smoothScroll">Desliza</a>
                               <span>
-                                   CALL US (+66) 010-020-0340
-                                   <small>For any inquiry</small>
+                                   Santo Mercado
+                                   <small>Puerto Montt / Temuco</small>
                               </span>
                          </div>
                     </div>
@@ -86,7 +86,7 @@ http://www.templatemo.com/tm-509-hydro
                     <div class="col-md-6 col-sm-12">
                          <div class="home-video">
                               <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/watch?v=TkLT5krv_6c" frameborder="0" allowfullscreen></iframe>
+                                   <iframe src="https://www.youtube.com/embed/WOIFQCOeso4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
                               </div>
                          </div>
                     </div>
@@ -154,7 +154,7 @@ http://www.templatemo.com/tm-509-hydro
 
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title">
-                              <h2>Nuestros miembros</h2>
+                              <h2>Staff</h2>
                               <span class="line-bar">...</span>
                          </div>
                     </div>
@@ -250,35 +250,30 @@ http://www.templatemo.com/tm-509-hydro
                          <!-- CONTACT FORM HERE -->
                          <form id="contact-form" role="form" action="#" method="post">
                               <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
+                                   <input type="text" class="form-control" placeholder="Nombre completo" id="cf-name" name="cf-name" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                                   <input type="email" class="form-control" placeholder="Email" id="cf-email" name="cf-email" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
+                                   <input type="tel" class="form-control" placeholder="Telefono" id="cf-number" name="cf-number" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
                                    <select class="form-control" id="cf-budgets" name="cf-budgets">
-                                        <option>Budget Level</option>
-                                        <option>$500 to $1,000</option>
-                                        <option>$1,000 to $2,200</option>
-                                        <option>$2,200 to $4,500</option>
-                                        <option>$4,500 to $7,500</option>
-                                        <option>$7,500 to $12,000</option>
-                                        <option>$12,000 or more</option>
+                                        <option>Sede></option>
+                                        <option>Puerto Montt</option>
                                    </select>
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
+                                   <textarea class="form-control" rows="6" placeholder="Requerimientos" id="cf-message" name="cf-message" required=""></textarea>
                               </div>
 
                               <div class="col-md-4 col-sm-12">
-                                   <input type="submit" class="form-control" name="submit" value="Send Message">
+                                   <input type="submit" class="form-control" name="submit" value="Enviar">
                               </div>
 
                          </form>
@@ -292,7 +287,7 @@ http://www.templatemo.com/tm-509-hydro
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11957.80538335756!2d-72.928832!3d-41.4728137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78237353e75c2591!2sUniversidad+Santo+Tom%C3%A1s!5e0!3m2!1ses-419!2scl!4v1543347251008" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                          </div>
                     </div>
 
