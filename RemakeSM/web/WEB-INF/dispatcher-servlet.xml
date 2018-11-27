@@ -22,6 +22,7 @@
                 <prop key="login.htm">loginController</prop>
                 <prop key="index1.htm">index1Controller</prop>
                 <prop key="agregarProducto.htm">agregarProductoController</prop>
+                <prop key="index.htm">indexController</prop>
             </props>
         </property>
     </bean>
@@ -46,6 +47,10 @@
     <bean name="agregarProductoController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="agregarProducto" />
+    
+    <bean name="indexController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="index" />
     
 
 </beans>
