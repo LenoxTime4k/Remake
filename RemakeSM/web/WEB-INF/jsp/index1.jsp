@@ -62,7 +62,7 @@
                 <form>
                     <div class="form-group">
                         <label for="nombre">Nombre Usuario</label>
-                        <input class="form-control" name="nombre" id="nombre" required>
+                        <input class="form-control" name="nombre" id="nombre" type="text" required>
                     </div>
 
                     <div class="form-group">
@@ -72,23 +72,38 @@
                     
                     <div class="form-group">
                         <label for="nombre_completo">Nombre completo</label>
-                        <input class="form-control" name="nombre_completo" id="nombre_completo" type="nombre_completo" required>
+                        <input class="form-control" name="nombre_completo" id="nombre_completo" type="text" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="rut">Rut</label>
-                        <input class="form-control" name="rut" id="rut" type="rut" required>
+                        <input class="form-control" name="rut" id="rut" type="text" required>
                     </div>
                     
-                    <div class="form-group">
-                        <label for="comuna">Comuna Residencia</label>
-                        <input class="form-control" name="comuna" id="comuna" type="comuna" required>
-                    </div>
+                    <div >
+                            <label for="sel1">Comuna/Sector</label>
+                            <select class="form-control" id="sel1">
+                            <option value="opcion" selected>Eliga una opcion</option>
+                            <option value="Mirasol">Mirasol</option>
+                            <option value="Alerce">Alerce</option>
+                            <option value="Puerto_Varas">Puerto Varas</option>
+                            <option value="Llanquihue">Llanquihue</option>
+                            <option value="Frutillar">Frutillar</option>
+                            <option value="Puerto_Montt">Puerto Montt</option>
+                            
+                        </select>
+                        </div>
                     
-                    <div class="form-group">
-                        <label for="sede">Sede Institucion</label>
-                        <input class="form-control" name="sede" id="sede" type="sede" required>
-                    </div>
+                    
+                    <div >
+                            <label for="sel1">Sede</label>
+                            <select class="form-control" id="sel1">
+                            <option value="opcion" selected>Eliga una opcion</option>
+                            <option value="Sede_Puerto_Montt">Sede Puerto Montt</option>
+                            <option value="Sede_Puerto_Varas">Sede Temuco</option>
+                            
+                        </select>
+                        </div>
 
                     <button type="submit" class="btn btn-primary">Guardar</button>
                 </form>
