@@ -33,7 +33,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="login.htm">Santo Mercado</a>
+                        <a class="navbar-brand" href="index.htm">Santo Mercado</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,30 +59,30 @@
         
             <div class="col-md-4 col-md-offset-3">
                 <h2>Registrar usuario</h2>
-                <form>
+                <form id="command" method="post">
                     <div class="form-group">
                         <label for="nombre">Nombre Usuario</label>
-                        <input class="form-control" name="nombre" id="nombre" type="text" required>
+                        <input class="form-control" name="nombreUsuario" id="nombreUsuario" type="text" required>
                     </div>
 
                     <div class="form-group">
                         <label for="password">Contraseña</label>
-                        <input class="form-control" name="password" id="password" type="password" required>
+                        <input class="form-control" name="contraseña" id="contraseña" type="text" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="nombre_completo">Nombre completo</label>
-                        <input class="form-control" name="nombre_completo" id="nombre_completo" type="text" required>
+                        <input class="form-control" name="nombreCompleto" id="nombreCompleto" type="text" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="rut">Rut</label>
-                        <input class="form-control" name="rut" id="rut" type="text" required>
+                        <input class="form-control" name="rutReg" id="rutReg" type="text" required>
                     </div>
                     
                     <div >
                             <label for="sel1">Comuna/Sector</label>
-                            <select class="form-control" id="sel1">
+                            <select class="form-control" name="comunaresidencia" id="sel1">
                             <option value="opcion" selected>Eliga una opcion</option>
                             <option value="Mirasol">Mirasol</option>
                             <option value="Alerce">Alerce</option>
@@ -97,7 +97,7 @@
                     
                     <div >
                             <label for="sel1">Sede</label>
-                            <select class="form-control" id="sel1">
+                            <select class="form-control" name="sede" id="sel1">
                             <option value="opcion" selected>Eliga una opcion</option>
                             <option value="Sede_Puerto_Montt">Sede Puerto Montt</option>
                             <option value="Sede_Puerto_Varas">Sede Temuco</option>
