@@ -9,6 +9,6 @@ package controller;
  *
  * @author Kevin_PC
  */
-public class loginConstroller {
+public class agregarProductoController {
     
 }

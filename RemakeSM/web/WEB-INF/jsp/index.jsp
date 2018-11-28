@@ -17,7 +17,7 @@ http://www.templatemo.com/tm-509-hydro
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/magnific-popup.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
-
+     
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
 </head>
@@ -43,7 +43,7 @@ http://www.templatemo.com/tm-509-hydro
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">Santo Mercado</a>
+                    <a class="navbar-brand">Santo Mercado</a>
                </div>
 
                <!-- MENU LINKS -->
@@ -52,6 +52,8 @@ http://www.templatemo.com/tm-509-hydro
                          <li><a href="#home" class="smoothScroll">Inicio</a></li>
                          <li><a href="#about" class="smoothScroll">¿Quienes Somos?</a></li>
                          <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
+                         <li><a disabled href="index1.htm" class="smoothScroll">Registro usuario</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -74,7 +76,7 @@ http://www.templatemo.com/tm-509-hydro
 
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
-                              <h1>We make beautiful websites for all people.</h1>
+                              <h1>Bienvenido a la mejor tienda virtual de intercambio y producto.</h1>
                               <a href="#about" class="btn section-btn smoothScroll">Start a project</a>
                               <span>
                                    CALL US (+66) 010-020-0340
