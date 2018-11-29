@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-     <title>Hydro - Landing Page Template</title>
+     <title>Santo Mercado</title>
 <!-- 
 Hydro Template 
 http://www.templatemo.com/tm-509-hydro
@@ -52,15 +52,14 @@ http://www.templatemo.com/tm-509-hydro
                          <li><a href="#home" class="smoothScroll">Inicio</a></li>
                          <li><a href="#about" class="smoothScroll">¿Quienes Somos?</a></li>
                          <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
-                         <li><a disabled href="index1.htm" class="smoothScroll">Registro usuario</a></li>
+                         <li><a disabled href="agregarProducto.htm" class="smoothScroll">Agregar Producto</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in / Join</a></li>
+                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Registrarse / Entrar</a></li>
                     </ul>
                </div>
 
@@ -88,7 +87,7 @@ http://www.templatemo.com/tm-509-hydro
                     <div class="col-md-6 col-sm-12">
                          <div class="home-video">
                               <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/watch?v=TkLT5krv_6c" frameborder="0" allowfullscreen></iframe>
+                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/WOIFQCOeso4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               </div>
                          </div>
                     </div>
@@ -242,7 +241,7 @@ http://www.templatemo.com/tm-509-hydro
 
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title">
-                              <h2>Contact us</h2>
+                              <h2>Contactanos</h2>
                               <span class="line-bar">...</span>
                          </div>
                     </div>
@@ -252,35 +251,31 @@ http://www.templatemo.com/tm-509-hydro
                          <!-- CONTACT FORM HERE -->
                          <form id="contact-form" role="form" action="#" method="post">
                               <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
+                                   <input type="text" class="form-control" placeholder="Nombre completo" id="cf-name" name="cf-name" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                                   <input type="email" class="form-control" placeholder="Email" id="cf-email" name="cf-email" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
+                                   <input type="tel" class="form-control" placeholder="Telefono" id="cf-number" name="cf-number" required="">
                               </div>
 
                               <div class="col-md-6 col-sm-6">
                                    <select class="form-control" id="cf-budgets" name="cf-budgets">
-                                        <option>Budget Level</option>
-                                        <option>$500 to $1,000</option>
-                                        <option>$1,000 to $2,200</option>
-                                        <option>$2,200 to $4,500</option>
-                                        <option>$4,500 to $7,500</option>
-                                        <option>$7,500 to $12,000</option>
-                                        <option>$12,000 or more</option>
+                                        <option>Sede</option>
+                                        <option>Sede Puerto Montt</option>
+                                        <option>Sede Temuco</option>
                                    </select>
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
+                                   <textarea class="form-control" rows="6" placeholder="Descripcion" id="cf-message" name="cf-message" required=""></textarea>
                               </div>
 
                               <div class="col-md-4 col-sm-12">
-                                   <input type="submit" class="form-control" name="submit" value="Send Message">
+                                   <input type="submit" class="form-control" name="submit" value="Enviar mensaje">
                               </div>
 
                          </form>
@@ -294,7 +289,7 @@ http://www.templatemo.com/tm-509-hydro
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11957.80538335756!2d-72.928832!3d-41.4728137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78237353e75c2591!2sUniversidad+Santo+Tom%C3%A1s!5e0!3m2!1ses-419!2scl!4v1543461634621" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                          </div>
                     </div>
 
@@ -310,38 +305,30 @@ http://www.templatemo.com/tm-509-hydro
 
                     <div class="col-md-5 col-sm-12">
                          <div class="footer-thumb footer-info"> 
-                              <h2>Hydro Company</h2>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <h2>Santo Mercado</h2>
+                              <p>Sitio web de comercio a nivel universidad y/o externas.</p>
                          </div>
                     </div>
 
-                    <div class="col-md-2 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h2>Company</h2>
-                              <ul class="footer-link">
-                                   <li><a href="#">About Us</a></li>
-                                   <li><a href="#">Join our team</a></li>
-                                   <li><a href="#">Read Blog</a></li>
-                                   <li><a href="#">Press</a></li>
-                              </ul>
-                         </div>
-                    </div>
+                    
 
-                    <div class="col-md-2 col-sm-4"> 
+                    
+                   
+                   <div class="col-md-3 col-sm-4"> 
                          <div class="footer-thumb"> 
-                              <h2>Services</h2>
-                              <ul class="footer-link">
-                                   <li><a href="#">Pricing</a></li>
-                                   <li><a href="#">Documentation</a></li>
-                                   <li><a href="#">Support</a></li>
-                              </ul>
+                              <h2>Integrantes</h2>
+                              <p>Andres Sanchez</p>
+                              <p>Kevin Soto</p>
+                              <p>Francisco Asenjo</p>
+                              <p>Esteban Barria</p>
+                              <p>Carlos Guanel</p>
                          </div>
-                    </div>
+                    </div> 
 
                     <div class="col-md-3 col-sm-4"> 
                          <div class="footer-thumb"> 
-                              <h2>Find us</h2>
-                              <p>123 Grand Rama IX, <br> Krung Thep Maha Nakhon 10400</p>
+                              <h2>Direccion</h2>
+                              <p>Buena Vecindad 91, <br> Puerto Montt, Region de Los Lagos</p>
                          </div>
                     </div>                    
 
@@ -349,12 +336,12 @@ http://www.templatemo.com/tm-509-hydro
                          <div class="footer-bottom">
                               <div class="col-md-6 col-sm-5">
                                    <div class="copyright-text"> 
-                                        <p>Copyright &copy; 2017 Your Company</p>
+                                        <p>Copyright &copy; 2018 Santo Mercado / Disclosure</p>
                                    </div>
                               </div>
                               <div class="col-md-6 col-sm-7">
                                    <div class="phone-contact"> 
-                                        <p>Call us <span>(+66) 010-020-0340</span></p>
+                                        <p>Contactanos <span>(+56) 9 6861 8005</span></p>
                                    </div>
                                    <ul class="social-icon">
                                         <li><a href="https://www.facebook.com/templatemo" class="fa fa-facebook-square" attr="facebook icon"></a></li>
@@ -387,33 +374,37 @@ http://www.templatemo.com/tm-509-hydro
 
                                    <div class="col-md-12 col-sm-12">
                                         <div class="modal-title">
-                                             <h2>Hydro Co</h2>
+                                             <h2>Santo Mercado</h2>
                                         </div>
 
                                         <!-- NAV TABS -->
                                         <ul class="nav nav-tabs" role="tablist">
-                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
-                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
+                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Crear cuenta</a></li>
+                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Ingresar</a></li>
                                         </ul>
 
                                         <!-- TAB PANES -->
                                         <div class="tab-content">
                                              <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
                                                   <form action="#" method="post">
-                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
-                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telephone" required>
+                                                       <input type="text" class="form-control" name="name-user" placeholder="Nombre de Usuario" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Clave" required>
+                                                       <input type="text" class="form-control" name="name" placeholder="Nombre" required>
+                                                       <input type="text" class="form-control" name="rut" placeholder="Rut" required>
+                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telefono" required>
                                                        <input type="email" class="form-control" name="email" placeholder="Email" required>
-                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
-                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                       <input type="comuna" class="form-control" name="comuna" placeholder="Comuna/Sector" required>
+                                                       <input type="sede" class="form-control" name="sede" placeholder="Sede" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Enviar">
                                                   </form>
                                              </div>
 
                                              <div role="tabpanel" class="tab-pane fade in" id="sign_in">
                                                   <form action="#" method="post">
                                                        <input type="email" class="form-control" name="email" placeholder="Email" required>
-                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
-                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
-                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
+                                                       <input type="password" class="form-control" name="password" placeholder="Clave" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Enviar">
+                                                       <a href="https://www.facebook.com/templatemo">¿Olvidaste tu clave?</a>
                                                   </form>
                                              </div>
                                         </div>
