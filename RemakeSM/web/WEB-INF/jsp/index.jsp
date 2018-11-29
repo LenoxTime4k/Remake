@@ -49,7 +49,6 @@ http://www.templatemo.com/tm-509-hydro
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="#home" class="smoothScroll">Inicio</a></li>
                          <li><a href="#about" class="smoothScroll">¿Quienes Somos?</a></li>
                          <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
                          <li><a disabled href="agregarProducto.htm" class="smoothScroll">Agregar Producto</a></li>

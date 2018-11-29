@@ -18,9 +18,25 @@
      <link rel="stylesheet" href="css/templatemo-style.css">
     </head>
     <body>
+        <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.htm" class="navbar-brand">Santo Mercado</a>
+               </div>
+          </section>      
         <section id="home" data-stellar-background-ratio="0.5">
           <div class="overlay"></div>
+          
           <div class="container">
+              
               <div class="row">
                     <div class="col-md-4 col-md-offset-3">
                            <h1>Registrar Producto</h1>
