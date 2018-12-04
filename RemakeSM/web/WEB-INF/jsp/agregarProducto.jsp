@@ -56,15 +56,6 @@
                                    <input class="form-control" name="descripcion" id="descripcion" type="text" required>
                                </div>
 
-                               <div >
-                                   <label for="sel1">Seleccione Categoria</label>
-                                   <select class="form-control" id="sel1">
-                                   <option value="opcion" selected>Eliga una opcion</option>
-                                   <option value="salud">Salud</option>
-                                   <option value="ingenieria">Ingenieria</option>
-                                   <option value="deporte">Deporte</option>
-                               </select>
-                               </div>
                                <br>
 
                                <div>
