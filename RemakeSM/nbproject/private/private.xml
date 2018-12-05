@@ -3,9 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/src/java/controller/loginController.java</file>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/src/conf/persistence.xml</file>
             <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/web/WEB-INF/jsp/index1.jsp</file>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/src/java/controller/agregarProductoController.java</file>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/src/java/ControllerJPA/CategoriaJpaController.java</file>
             <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/web/WEB-INF/jsp/agregarProducto.jsp</file>
             <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/Andyees/Documents/GitHub/Remake/RemakeSM/src/java/controller/index1Controller.java</file>
         </group>
     </open-files>
 </project-private>
