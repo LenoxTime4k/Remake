@@ -6,9 +6,7 @@
 package controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
+
 
 /**
  *
@@ -16,12 +14,13 @@ import org.springframework.web.servlet.ModelAndView;
  */
 public class index1Controller {
     
-    /*@RequestMapping(value="index1.htm", method=RequestMethod.GET)
+    /*
+    @RequestMapping(value="index1.htm", method=RequestMethod.GET)
     public ModelAndView index1(){
         
         return new ModelAndView("index1","command");
     }
-    
     */
+    
     
 }
