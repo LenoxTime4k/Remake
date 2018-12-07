@@ -4,26 +4,25 @@
  * and open the template in the editor.
  */
 package controller;
-/*
+
 import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-*/
 
 /**
  *
  * @author Kevin_PC
  */
 
-/*@Controller
+@Controller
 @PersistenceContext(unitName = "RemakeSMPU")
 public class agregarProductoController {
-    @RequestMapping(value="/ver.htm", method = RequestMethod.Get)
-    public String otroMetodo (Model model){
+    @RequestMapping(value="agregarProducto.htm", method = RequestMethod.GET)
+    public String otroM (Model model){
         return "index";
     }
 } 
-*/
+

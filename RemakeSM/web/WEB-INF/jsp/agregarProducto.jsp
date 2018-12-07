@@ -40,7 +40,7 @@
               <div class="row">
                     <div class="col-md-4 col-md-offset-3">
                            <h1>Registrar Producto</h1>
-                           <form action="">
+                           <form action="agregarProducto.htm" method="POST">
                                <div class="form-group">
                                    <label for="nombre">Nombre Producto</label>
                                    <input class="form-control" name="nombre" id="nombre" type="text" required>

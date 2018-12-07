@@ -5,6 +5,11 @@
  */
 package controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
 
 
 
@@ -12,7 +17,13 @@ package controller;
  *
  * @author Kevin_PC
  */
+@Controller
+@RequestMapping("index1.htm")
 public class index1Controller {
+    @RequestMapping(method = RequestMethod.GET)
+    public String otro (Model model){
+        return "index1";
+    }
     
     /*
     @RequestMapping(value="index1.htm", method=RequestMethod.GET)

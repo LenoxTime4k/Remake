@@ -29,27 +29,28 @@
         
             <div class="col-md-4 col-md-offset-3">
                 <h2>Registrar usuario</h2>
-                <form id="command" method="post">
+                <form action="index1.htm"  method="post">
                     <div class="form-group">
                         <label for="nombre">Nombre Usuario</label>
-                        <input class="form-control" name="nombreUsuario" id="nombreUsuario" type="text" required>
+                        <input class="form-control" name="nombreUsuario" id="nombreUsuario" type="nombre" required>
                     </div>
 
                     <div class="form-group">
                         <label for="password">Contraseña</label>
-                        <input class="form-control" name="contraseña" id="contraseña" type="text" required>
+                        <input class="form-control" name="contraseña" id="contraseña" type="password" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="nombre_completo">Nombre completo</label>
-                        <input class="form-control" name="nombreCompleto" id="nombreCompleto" type="text" required>
+                        <input class="form-control" name="nombreCompleto" id="nombreCompleto" type="nombreCompleto" required>
                     </div>
                     
                     <div class="form-group">
                         <label for="rut">Rut</label>
-                        <input class="form-control" name="rutReg" id="rutReg" type="text" required>
+                        <input class="form-control" name="rutReg" id="rutReg" type="rut" required>
                     </div>
                     
+                    <!--
                     <div >
                             <label for="sel1">Comuna/Sector</label>
                             <select class="form-control" name="comunaresidencia" id="sel1">
@@ -72,13 +73,19 @@
                             
                         </select>
                         </div>
-                    <br>
-                    <button type="submit" class="btn btn-primary">Guardar</button>
-                    <br>
-                    <div>
-                        <label>Lista de Usuarios1 </label>
-                        
+                    -->
+                    <div class="form-group">
+                        <label for="comuna">Comuna</label>
+                        <input class="form-control" name="comunaresidencia" id="comunaresidencia" type="comuna" required>
                     </div>
+                    
+                    <div class="form-group">
+                        <label for="sede">Sede</label>
+                        <input class="form-control" name="sede" id="sede" type="sede" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                   
                 </form>
             </div>
           </section>
