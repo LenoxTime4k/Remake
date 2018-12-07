@@ -52,13 +52,14 @@ http://www.templatemo.com/tm-509-hydro
                          <li><a href="#about" class="smoothScroll">¿Quienes Somos?</a></li>
                          <li><a href="#contact" class="smoothScroll">Contactanos</a></li>
                          <li><a disabled href="agregarProducto.htm" class="smoothScroll">Agregar Producto</a></li>
+                         <li><a href="index1.htm" class="smoothScroll">Registro usuario</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Registrarse / Entrar</a></li>
+                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form"> Entrar</a></li>
                     </ul>
                </div>
 
@@ -378,13 +379,13 @@ http://www.templatemo.com/tm-509-hydro
 
                                         <!-- NAV TABS -->
                                         <ul class="nav nav-tabs" role="tablist">
-                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Crear cuenta</a></li>
+                                         <!--    <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Crear cuenta</a></li> -->
                                              <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Ingresar</a></li>
                                         </ul>
 
                                         <!-- TAB PANES -->
                                         <div class="tab-content">
-                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
+                                          <!--   <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
                                                   <form action="#" method="post">
                                                        <input type="text" class="form-control" name="name-user" placeholder="Nombre de Usuario" required>
                                                        <input type="password" class="form-control" name="password" placeholder="Clave" required>
@@ -396,7 +397,7 @@ http://www.templatemo.com/tm-509-hydro
                                                        <input type="sede" class="form-control" name="sede" placeholder="Sede" required>
                                                        <input type="submit" class="form-control" name="submit" value="Enviar">
                                                   </form>
-                                             </div>
+                                             </div> -->
 
                                              <div role="tabpanel" class="tab-pane fade in" id="sign_in">
                                                   <form action="#" method="post">

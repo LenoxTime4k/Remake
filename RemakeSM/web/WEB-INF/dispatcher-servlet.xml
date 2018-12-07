@@ -17,7 +17,8 @@
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
-<mvc:view-controller path="/agregarProducto.htm" view-name="agregarProducto"/>
+<mvc:view-controller path="agregarProducto.htm" view-name="agregarProducto"/>
+<mvc:view-controller path="index1.htm" view-name="index1"/>
     <!--
     Most controllers will use the ControllerClassNameHandlerMapping above, but
     for the index controller we are using ParameterizableViewController, so we must
